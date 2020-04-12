@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Roboto',Helvetica,Arial,serif !important;
+
+}
+.bg-btn{
+    background-color: rgba(0,194,135,1.0);
+    color: white;
+    margin-top: 0%;
+}
+.btn-explore{
+    border-color: rgba(0,194,135,1.0);
+    color: rgba(0,194,135,1.0);
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 500;
+    font-size: 13.0px;
+    color: rgba(4,172,121,1.0);
+}
+
+
+/*-------------- NavBAR------------- */
+.navcontainer{
+    height: 67px;
+}
+.nav-link{
+    margin-top: 14px;
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15.0px;
+    color: rgba(74,73,74,1.0);
+}
+.Navbtn{
+    background-color: rgba(0,194,135,1.0);
+    height: 45px;
+    width: 140px;
+    border-radius: 22px;
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 400;
+    font-size: 15.0px;
+}
+.sn{
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15.0px;
+    color: rgba(74,73,74,1.0);
+    letter-spacing: .78px;
+}
+
+.sn:hover{
+    color: rgba(74,73,74,1.0) !important;
+}
+
+.nav-active{
+    border-bottom: 3px solid rgba(0,194,135,1.0); ;
+    padding-bottom: 13.5px;
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15.0px;
+    color: rgba(30,36,111,1.0);
+}
+
+
+
+
+
+/*--------------- mobile view --------------*/
+
+@media only screen and (max-width: 1200px) {
+    .techBox{
+        padding: 3.5em !important;
+    }
+    .techeco{
+        padding-left: 0% !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .techBox{
+        padding: 3.5em;
+    }
+    .tech-p{
+        padding: 2% 3%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .logosc{
+        left: 10px;
+    }
+    /* .bannerImage{
+        width: 60%;
+        margin-left: 20%;
+    } */
+    .countstatus{
+        padding: 0 10% !important;
+        width: 100% !important;
+    }
+    .container-fluid{
+        width: 100% !important;
+        margin: 0% ;
+        padding: 0%;
+
+    }
+    .col-12{
+        width: 100% !important;
+        padding-right: 0% !important;
+    }
+    .images-p{
+        width: 100% !important;
+        padding: 5% 10% !important;
+    }
+    .techBox{
+        padding: 0em;
+    }
+    .tech-p{
+        padding: 0.75% 3%;
+    }
+    .list_p{
+     width: 100% !important;
+     padding: 0% 15% !important;
+    }
+    .backd-p{
+        padding: 5%;
+    }
+    li{
+        text-align: center;
+    }
+    .footerheading{
+        text-align: center;
+    }
+    .card{
+        margin-left: 5%;
+    }
+} 

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- styelink -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- Javascript -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/app.js"></script>
+    <!-- BAR & Graph -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="../js/graph-charts.js"></script>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <div class=" container-fluid m-0 p-0 sticky-top bg-white shadow-sm">
+        <div class="d-flex navcontainer justify-content-between">
+            <img src="../assets/logo.svg" alt="" class="img-fluid pl-2 " />
+            <ul class="d-flex mr-3">
+                <li class="nav-item mx-2">
+                    <a class="nav-link nav-active" href="#">Dashboard</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">My Trainee</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">Project</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">Course</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <div class="ml-5"></div>
+                <li class="nav-item">
+                    <a href="#"><img src="../assets/neeraj.png" class="nav-p-image mt-3" alt=""></a>
+                </li>
+                <li class="nav-item ">
+                    <a href="#" class="nav-link">
+                        <p>Neeraj Chaurasia</p>
+                    </a>
+                </li>
+                <li class="nav-item ml-3">
+                    <a href="#">
+                        <div class="nav-link chat-icon">
+                            <p class="bg-btn rounded-circle notification text-center  pt-0">6</p>
+                        </div>
+                    </a>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container-fluid mx-0 px-0 ">
+        <div class="d-flex flex-row justify-content-around bar_container px-0 mx-0">
+            <div class="col-md-3 px-0 mx-0 py-3 ">
+                <p class="t-15-b text-white text-left mb-2">Trainee Status</p>
+                <p class="t-14-m text-white text-left mb-2">My Total Trainee <span class="t-15-b text-white"> 200
+                    </span></p>
+                <div class="d-flex flex-row ">
+                    <div class="col-md-6 px-0">
+                        <div id="traineechart" style="width: 100%;height: 110px;"></div>
+                    </div>
+                    <div class="col-md-4 px-0">
+                        <p class="t-12-m text-white">Active Trainee</p>
+                        <p class="t-12-m text-white">Offline Trainee</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 px-0 mx-0 py-3">
+                <p class="t-15-b text-white text-left mb-2">Project Status</p>
+                <p class="t-14-m text-white text-left mb-2">Total Projects <span class="t-15-b text-white"> 200 </span>
+                </p>
+                <div class="d-flex flex-row">
+                    <div class="col-md-6 px-0">
+                        <div id="projectchart" style="width:100%;height: 110px;"></div>
+                    </div>
+                    <div class="col-md-4 px-0">
+                        <p class="t-12-m text-white">Active Project</p>
+                        <p class="t-12-m text-white">Pending Project</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mx-0 py-3">
+                <p class="t-15-b text-white mb-3 text-left">How You Enagage With Trainee</p>
+                <div id="engagegraph" class="engagegraph-border " style="width: 100%;height: 100px;">
+                </div>
+            </div>
+            <div class="col-md-2 my-auto">
+                <button class="btn bg-white t-14-m t-b rounded-pill">Guide Your Trainee</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Live Project -->
+    <div class="container-fluid px-0">
+        <div class="d-flex justify-content-center my-5">
+
+            <div class="col-md-4 px-0">
+                <div class="container-fluid mx-0 px-0 border rounded-lg align-self-start p-3 ">
+                    <p class="t-15-b text-left">Live Project</p>
+                    <hr class="mentor-hr">
+                    <div class="d-flex flex-row">
+                        <div class="col-md-4 px-0">
+                            <p class="t-13-m text-left p-0">Simplify NodeJS</p>
+                        </div>
+                        <div class="col-md-3  progress-container">
+                            <div class="progress-bg rounded-pill"></div>
+                            <div class="progress-indicator rounded-pill" style="width: 65%;"></div>
+                        </div>
+                        <div class="col-md-2 px-0 mx-auto">
+                            <p class="t-12-m text-right t-g">65% Done</p>
+                        </div>
+                        <div class="col-md-2 pl-2">
+                            <p class="t-12-b text-right t-b">Interested</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="col-md-4 px-0">
+                            <p class="t-13-m text-left p-0">Simplify NodeJS</p>
+                        </div>
+                        <div class="col-md-3  progress-container">
+                            <div class="progress-bg rounded-pill"></div>
+                            <div class="progress-indicator rounded-pill" style="width: 65%;"></div>
+                        </div>
+                        <div class="col-md-2 px-0 mx-auto">
+                            <p class="t-12-m text-right t-g">65% Done</p>
+                        </div>
+                        <div class="col-md-2 pl-2">
+                            <p class="t-12-b text-right t-b">Interested</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="col-md-4 px-0">
+                            <p class="t-13-m text-left p-0">Simplify NodeJS</p>
+                        </div>
+                        <div class="col-md-3  progress-container">
+                            <div class="progress-bg rounded-pill"></div>
+                            <div class="progress-indicator rounded-pill" style="width: 65%;"></div>
+                        </div>
+                        <div class="col-md-2 px-0 mx-auto">
+                            <p class="t-12-m text-right t-g">65% Done</p>
+                        </div>
+                        <div class="col-md-2 pl-2">
+                            <p class="t-12-b text-right t-b">Interested</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="col-md-4 px-0">
+                            <p class="t-13-m text-left p-0">Simplify NodeJS</p>
+                        </div>
+                        <div class="col-md-3  progress-container">
+                            <div class="progress-bg rounded-pill"></div>
+                            <div class="progress-indicator rounded-pill" style="width: 65%;"></div>
+                        </div>
+                        <div class="col-md-2 px-0 mx-auto">
+                            <p class="t-12-m text-right t-g">65% Done</p>
+                        </div>
+                        <div class="col-md-2 pl-2">
+                            <p class="t-12-b text-right t-b">Interested</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="col-md-4 px-0">
+                            <p class="t-13-m text-left p-0">Simplify NodeJS</p>
+                        </div>
+                        <div class="col-md-3  progress-container">
+                            <div class="progress-bg rounded-pill"></div>
+                            <div class="progress-indicator rounded-pill" style="width: 65%;"></div>
+                        </div>
+                        <div class="col-md-2 px-0 mx-auto">
+                            <p class="t-12-m text-right t-g">65% Done</p>
+                        </div>
+                        <div class="col-md-2 pl-2">
+                            <p class="t-12-b text-right t-b">Interested</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row mx-0 p-3 border rounded-lg my-4">
+                    <div id="taskgraph" style="width: 100%;height: 180px;"></div>
+                </div>
+            </div>
+
+            <!-- Messages -->
+            <div class="col-md-3 p-3 mx-4 border align-self-start rounded-lg">
+                <p class="t-15-b text-left">Messages</p>
+                <hr class="mentor-hr">
+                <div class="d-flex flex-row">
+                    <div class="col-md-2  px-0">
+                        <img src="../assets/m1.png" alt="" class="img-fluid m-auto">
+                    </div>
+                    <div class="col-md-9 px-3">
+                        <p class="t-15-m t-b m-0 p-0 lh-18 ls-78">Aman</p>
+                        <p class="t-13-m t-g ls-68">Which one is Best tool for ..</p>
+                    </div>
+                    <div class="col-lg-1 px-0">
+                        <p class="t-gl t-11-m text-center mb-0">8min</p>
+                        <p class="t-15-b bg-btn text-white rounded-circle notification-msg text-center">2</p>
+                    </div>
+                </div>
+                <div class="container px-3">
+                    <hr class="mt-0 hr-l">
+                </div>
+
+                <div class="d-flex flex-row">
+                    <div class="col-md-2  px-0">
+                        <img src="../assets/m1.png" alt="" class="img-fluid m-auto">
+                    </div>
+                    <div class="col-md-9 px-3">
+                        <p class="t-15-m t-b m-0 p-0 lh-18 ls-78">Aman</p>
+                        <p class="t-13-m t-g ls-68">Which one is Best tool for ..</p>
+                    </div>
+                    <div class="col-lg-1 px-0">
+                        <p class="t-gl t-11-m text-center mb-0">8min</p>
+                        <p class="t-15-b bg-btn text-white rounded-circle notification-msg text-center">2</p>
+                    </div>
+                </div>
+                <div class="container px-3">
+                    <hr class="mt-0 hr-l">
+                </div>
+                <div class="d-flex flex-row">
+                    <div class="col-md-2  px-0">
+                        <img src="../assets/m1.png" alt="" class="img-fluid m-auto">
+                    </div>
+                    <div class="col-md-9 px-3">
+                        <p class="t-15-m t-b m-0 p-0 lh-18 ls-78">Aman</p>
+                        <p class="t-13-m t-g ls-68">Which one is Best tool for ..</p>
+                    </div>
+                    <div class="col-lg-1 px-0">
+                        <p class="t-gl t-11-m text-center mb-0">8min</p>
+                        <p class="t-15-b bg-btn text-white rounded-circle notification-msg text-center">2</p>
+                    </div>
+                </div>
+                <div class="container px-3">
+                    <hr class="mt-0 hr-l">
+                </div>
+                <div class="d-flex flex-row">
+                    <div class="col-md-2  px-0">
+                        <img src="../assets/m1.png" alt="" class="img-fluid m-auto">
+                    </div>
+                    <div class="col-md-9 px-3">
+                        <p class="t-15-m t-b m-0 p-0 lh-18 ls-78">Aman</p>
+                        <p class="t-13-m t-g ls-68">Which one is Best tool for ..</p>
+                    </div>
+                    <div class="col-lg-1 px-0">
+                        <p class="t-gl t-11-m text-center mb-0">8min</p>
+                        <p class="t-15-b bg-btn text-white rounded-circle notification-msg text-center">2</p>
+                    </div>
+                </div>
+                <div class="container px-3">
+                    <hr class="mt-0 hr-l">
+                </div>
+                <div class="d-flex flex-row">
+                    <div class="col-md-2  px-0">
+                        <img src="../assets/m1.png" alt="" class="img-fluid m-auto">
+                    </div>
+                    <div class="col-md-9 px-3">
+                        <p class="t-15-m t-b m-0 p-0 lh-18 ls-78">Aman</p>
+                        <p class="t-13-m t-g ls-68">Which one is Best tool for ..</p>
+                    </div>
+                    <div class="col-lg-1 px-0">
+                        <p class="t-gl t-11-m text-center mb-0">8min</p>
+                        <p class="t-15-b bg-btn text-white rounded-circle notification-msg text-center">2</p>
+                    </div>
+                </div>
+                <div class="container px-3">
+                    <hr class="mt-0 hr-l">
+                </div>
+            </div>
+
+            <!-- Trainee Activity -->
+            <div class="col-md-4 p-3 border align-self-start rounded-lg">
+                <p class="t-15-b text-left">Trainee Activity</p>
+                <hr class="mentor-hr">
+                <div class="d-flex flex-row justify-content-around">
+                    <div class="col-md-1 px-0">
+                        <img src="../assets/m1.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md-10 px-0">
+                        <div class="container-fluid px-0">
+                            <p class="t-13-m t-gl ls-68">
+                                <span class="t-bl t-13-m ">Raghav Gupta</span>
+                                changed the Parent to 'SSP-10' o
+                            </p>
+                            <div class="d-flex flex-row">
+                                <p class="t-11-m t-gl ml-4 mb-0">8 minute ago</p>
+                                <p class="t-11-m t-bl ml-4 ls-57 mb-0">Comment</p>
+                                <p class="t-11-m t-bl ml-4 ls-57 mb-0">See</p>
+                            </div>
+                            <hr class="mt-0 hr-l mx-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-around">
+                    <div class="col-md-1 px-0">
+                        <img src="../assets/m1.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md-10 px-0">
+                        <div class="container-fluid px-0">
+                            <p class="t-13-m t-gl ls-68">
+                                <span class="t-bl t-13-m ">Raghav Gupta</span>
+                                changed the Parent to 'SSP-10' o
+                            </p>
+                            <div class="d-flex flex-row">
+                                <p class="t-11-m t-gl ml-4 mb-0">8 minute ago</p>
+                                <p class="t-11-m t-bl ml-4 ls-57 mb-0">Comment</p>
+                                <p class="t-11-m t-bl ml-4 ls-57 mb-0">See</p>
+                            </div>
+                            <hr class="mt-0 hr-l mx-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-around">
+                    <div class="col-md-1 px-0">
+                        <img src="../assets/m1.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md-10 px-0">
+                        <div class="container-fluid px-0">
+                            <p class="t-13-m t-gl ls-68">
+                                <span class="t-bl t-13-m ">Raghav Gupta</span>
+                                changed the Parent to 'SSP-10' o
+                            </p>
+                            <div class="d-flex flex-row">
+                                <p class="t-11-m t-gl ml-4 mb-0">8 minute ago</p>
+                                <p class="t-11-m t-bl ml-4 ls-57 mb-0">Comment</p>
+                                <p class="t-11-m t-bl ml-4 ls-57 mb-0">See</p>
+                            </div>
+                            <hr class="mt-0 hr-l mx-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-around">
+                    <div class="col-md-1 px-0">
+                        <img src="../assets/m1.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md-10 px-0">
+                        <div class="container-fluid px-0">
+                            <p class="t-13-m t-gl ls-68">
+                                <span class="t-bl t-13-m ">Raghav Gupta</span>
+                                changed the Parent to 'SSP-10' o
+                            </p>
+                            <div class="d-flex flex-row">
+                                <p class="t-11-m t-gl ml-4 mb-0">8 minute ago</p>
+                                <p class="t-11-m t-bl ml-4 ls-57 mb-0">Comment</p>
+                                <p class="t-11-m t-bl ml-4 ls-57 mb-0">See</p>
+                            </div>
+                            <hr class="mt-0 hr-l mx-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-around">
+                    <div class="col-md-1 px-0">
+                        <img src="../assets/m1.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md-10 px-0">
+                        <div class="container-fluid px-0">
+                            <p class="t-13-m t-gl ls-68">
+                                <span class="t-bl t-13-m ">Raghav Gupta</span>
+                                changed the Parent to 'SSP-10' o
+                            </p>
+                            <div class="d-flex flex-row">
+                                <p class="t-11-m t-gl ml-4 mb-0">8 minute ago</p>
+                                <p class="t-11-m t-bl ml-4 ls-57 mb-0">Comment</p>
+                                <p class="t-11-m t-bl ml-4 ls-57 mb-0">See</p>
+                            </div>
+                            <hr class="mt-0 hr-l mx-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-around">
+                    <div class="col-md-1 px-0">
+                        <img src="../assets/m1.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md-10 px-0">
+                        <div class="container-fluid px-0">
+                            <p class="t-13-m t-gl ls-68">
+                                <span class="t-bl t-13-m ">Raghav Gupta</span>
+                                changed the Parent to 'SSP-10' o
+                            </p>
+                            <div class="d-flex flex-row">
+                                <p class="t-11-m t-gl ml-4 mb-0">8 minute ago</p>
+                                <p class="t-11-m t-bl ml-4 ls-57 mb-0">Comment</p>
+                                <p class="t-11-m t-bl ml-4 ls-57 mb-0">See</p>
+                            </div>
+                            <hr class="mt-0 hr-l mx-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-around">
+                    <div class="col-md-1 px-0">
+                        <img src="../assets/m1.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md-10 px-0">
+                        <div class="container-fluid px-0">
+                            <p class="t-13-m t-gl ls-68">
+                                <span class="t-bl t-13-m ">Raghav Gupta</span>
+                                changed the Parent to 'SSP-10' o
+                            </p>
+                            <div class="d-flex flex-row">
+                                <p class="t-11-m t-gl ml-4 mb-0">8 minute ago</p>
+                                <p class="t-11-m t-bl ml-4 ls-57 mb-0">Comment</p>
+                                <p class="t-11-m t-bl ml-4 ls-57 mb-0">See</p>
+                            </div>
+                            <hr class="mt-0 hr-l mx-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-around">
+                    <div class="col-md-1 px-0">
+                        <img src="../assets/m1.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md-10 px-0">
+                        <div class="container-fluid px-0">
+                            <p class="t-13-m t-gl ls-68">
+                                <span class="t-bl t-13-m ">Raghav Gupta</span>
+                                changed the Parent to 'SSP-10' o
+                            </p>
+                            <div class="d-flex flex-row">
+                                <p class="t-11-m t-gl ml-4 mb-0">8 minute ago</p>
+                                <p class="t-11-m t-bl ml-4 ls-57 mb-0">Comment</p>
+                                <p class="t-11-m t-bl ml-4 ls-57 mb-0">See</p>
+                            </div>
+                            <hr class="mt-0 hr-l mx-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- footer part -->
+    <footer>
+        <div class="container">
+            <div class="row pt-4">
+                <div class="col-lg-3 col-md-5 col-12 pl-5">
+                    <h6 class="footerheading">Company</h6>
+                    <ul>
+                        <li>About</li>
+                        <li>More Search</li>
+                        <li>Blog</li>
+                        <li>Event</li>
+                        <li>Testmonial</li>
+                    </ul>
+                    <button type="button" class="btn registerbtn">Register Now</button>
+                </div>
+                <div class="col-lg-3 col-md-5 col-12 px-auto">
+                    <h6 class="footerheading">Quick Links</h6>
+                    <ul>
+                        <li>News</li>
+                        <li>Servics</li>
+                        <li>Term & Condition</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-5 col-12 px-auto">
+                    <h6 class="footerheading">Contact Us</h6>
+                    <div class="container-fluid">
+                        <div class="row mt-2">
+                            <div class="col-2 p-1">
+                                <img src="../assets/phone.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-10 p-0">
+                                <p class="text-left pl-3 mt-1">+91 1234567890</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2 p-1">
+                                <img src="../assets/mail.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-10 p-0">
+                                <p class="text-left pl-3 mt-1">ambersystem@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h6 class="footerheading mt-3">Social Media</h6>
+                    <div class="container-fluid">
+                        <div class="row mt-2">
+                            <div class="col-2 p-1">
+                                <img src="../assets/fb.PNG" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-10 p-0">
+                                <p class="text-left pl-3 mt-2">Facebook</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2 p-1">
+                                <img src="../assets/tw.PNG" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-10 p-0">
+                                <p class="text-left pl-3 mt-2">Twitter</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2 p-1">
+                                <img src="../assets/li.PNG" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-10 p-0">
+                                <p class="text-left pl-3 mt-2">Linkdin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-12 px-auto">
+                    <h6 class="footerheading">Leave a message</h6>
+                    <br>
+                    <input class="form-control" type="text" placeholder="Name">
+                    <input class="form-control" type="email" placeholder="Email">
+                    <input class="form-control msg" type="text" placeholder="Message">
+                    <button type="button" class="btn contactbtn">Send</button>
+                </div>
+            </div>
+            <hr class="col-lg-10 mx-auto">
+            <p class="text-center pb-3 m-0 Copyrighttext">Copyright © 2019 Amber System. All Rights
+                Reserved. Terms of
+                Use |
+                Privacy Policy | Disclaimer</p>
+        </div>
+    </footer>
+</body>
+
+</html>

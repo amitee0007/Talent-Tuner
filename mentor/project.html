@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- styelink -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/circle.css">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- Javascript -->
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- BAR & Graph -->
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <div class=" container-fluid m-0 p-0 sticky-top bg-white shadow-sm">
+        <div class="d-flex navcontainer justify-content-between">
+            <img src="../assets/logo.svg" alt="" class="img-fluid pl-2 " />
+            <ul class="d-flex mr-3">
+                <li class="nav-item mx-2">
+                    <a class="nav-link " href="#">Dashboard</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link nav-active" href="#">My Trainee</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">Project</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">Course</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <div class="ml-5"></div>
+                <li class="nav-item">
+                    <a href="#"><img src="../assets/neeraj.png" class="nav-p-image mt-3" alt=""></a>
+                </li>
+                <li class="nav-item ">
+                    <a href="#" class="nav-link">
+                        <p>Neeraj Chaurasia</p>
+                    </a>
+                </li>
+                <li class="nav-item ml-3">
+                    <a href="#">
+                        <div class="nav-link chat-icon">
+                            <p class="bg-btn rounded-circle notification text-center  pt-0">6</p>
+                        </div>
+                    </a>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="d-flex row-flex my-4">
+        <div class="col-md-3 my-auto">
+            <p class="t-18-b t-bb lh-21 ls-94 my-auto ml-4">My Projects</p>
+        </div>
+        <div class="col-md-1 ml-auto px-2">
+            <div class="btn d-flex flex-row bg-footer justify-content-center h-40 rounded-pill">
+                <div class="col-md-2 px-0 my-auto">
+                    <img src="../assets/filter.png" alt="" class="img-fluid">
+                </div>
+                <p class="t-12-m t-gl mb-0 ml-1 my-auto">Filter</p>
+            </div>
+        </div>
+        <button class="btn bg-theame text-white h-40 rounded-pill mx-2 t-14-m">+ Add New Project</button>
+        <div class="col-md-3">
+            <input type="text" placeholder="Search Trainee"
+                class="form-control mt-0 placeholder-mentor rounded-pill h-40 px-4">
+        </div>
+    </div>
+
+    <div class="b-2-l my-3 mx-3 rounded-lg p-3 pb-5">
+        <div class="d-flex flex-row justify-content-around">
+            <p class="ls-68 lh-15 t-13-b l-bb col-md-3 px-0 text-left">Project Name</p>
+            <p class="ls-68 lh-15 t-13-b l-bb col-md-1 px-0 text-center">Done</p>
+            <p class="ls-68 lh-15 t-13-b l-bb col-md-1 px-0 text-center">Mentor</p>
+            <p class="ls-68 lh-15 t-13-b l-bb col-md-1 px-0 text-center">Status</p>
+            <p class="ls-68 lh-15 t-13-b l-bb col-md-1 px-0 text-center">Total Task</p>
+            <p class="ls-68 lh-15 t-13-b l-bb col-md-1 px-0 text-center">Done Task</p>
+            <p class="ls-68 lh-15 t-13-b l-bb col-md-1 px-0 text-center">Pendng Task</p>
+            <p class="ls-68 lh-15 t-13-b l-bb col-md-2 px-0 text-center">Total Trainee</p>
+        </div>
+        <hr class="mt-0 border-dark">
+
+        <div class="d-flex flex-row justify-content-around mt-4">
+            <p class="t-16-m -t-bb ls-84 col-md-3 px-0 pl-2 my-auto">Red N Green</p>
+            <div class="col-md-1 px-0">
+                <div class="d-flex row-flex">
+                    <div class="col-md-6">
+                        <div class="c100 p25 small green">
+                            <span>45%</span>
+                            <div class="slice">
+                              <div class="bar"></div>
+                              <div class="fill"></div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="col-md-1 px-0 t-16-m t-bb text-center my-auto">65%</p>
+                    </div>
+                </div>
+            </div>
+            <p class="col-md-1 px-0 t-16-m t-bb text-center my-auto">Me</p>
+            <p class="col-md-1 px-0 t-16-b t-theame text-center my-auto">Active <span class="dropdown-toggle t-gl t-20-b ml-1 pt-2"></span></p>
+            <p class="col-md-1 px-0 t-16-m t-bb text-center my-auto">133</p>
+            <p class="col-md-1 px-0 t-16-m t-bb text-center my-auto">90</p>
+            <p class="col-md-1 px-0 t-16-m t-bb text-center my-auto">43</p>
+            <p class="col-md-2 px-0 t-16-m t-bb text-center my-auto">40</p>
+        </div>
+        <hr class="hrd-1">
+
+    </div>
+
+
+
+    <!-- footer part -->
+    <footer>
+        <div class="container">
+            <div class="row pt-4">
+                <div class="col-lg-3 col-md-5 col-12 pl-5">
+                    <h6 class="footerheading">Company</h6>
+                    <ul>
+                        <li>About</li>
+                        <li>More Search</li>
+                        <li>Blog</li>
+                        <li>Event</li>
+                        <li>Testmonial</li>
+                    </ul>
+                    <button type="button" class="btn registerbtn">Register Now</button>
+                </div>
+                <div class="col-lg-3 col-md-5 col-12 px-auto">
+                    <h6 class="footerheading">Quick Links</h6>
+                    <ul>
+                        <li>News</li>
+                        <li>Servics</li>
+                        <li>Term & Condition</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-5 col-12 px-auto">
+                    <h6 class="footerheading">Contact Us</h6>
+                    <div class="container-fluid">
+                        <div class="row mt-2">
+                            <div class="col-2 p-1">
+                                <img src="../assets/phone.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-10 p-0">
+                                <p class="text-left pl-3 mt-1">+91 1234567890</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2 p-1">
+                                <img src="../assets/mail.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-10 p-0">
+                                <p class="text-left pl-3 mt-1">ambersystem@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h6 class="footerheading mt-3">Social Media</h6>
+                    <div class="container-fluid">
+                        <div class="row mt-2">
+                            <div class="col-2 p-1">
+                                <img src="../assets/fb.PNG" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-10 p-0">
+                                <p class="text-left pl-3 mt-2">Facebook</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2 p-1">
+                                <img src="../assets/tw.PNG" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-10 p-0">
+                                <p class="text-left pl-3 mt-2">Twitter</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2 p-1">
+                                <img src="../assets/li.PNG" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-10 p-0">
+                                <p class="text-left pl-3 mt-2">Linkdin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-12 px-auto">
+                    <h6 class="footerheading">Leave a message</h6>
+                    <br>
+                    <input class="form-control" type="text" placeholder="Name">
+                    <input class="form-control" type="email" placeholder="Email">
+                    <input class="form-control msg" type="text" placeholder="Message">
+                    <button type="button" class="btn contactbtn">Send</button>
+                </div>
+            </div>
+            <hr class="col-lg-10 mx-auto">
+            <p class="text-center pb-3 m-0 Copyrighttext">Copyright © 2019 Amber System. All Rights
+                Reserved. Terms of
+                Use |
+                Privacy Policy | Disclaimer</p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,560 @@
+.t-10-l{font-size: 10x;font-weight: 300;font-family: 'Roboto',Helvetica,Arial,serif;}
+
+.t-12-l{font-size: 12px;font-weight: 300;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-13-l{font-size: 13px;font-weight: 300;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-14-l{font-size: 14px;font-weight: 300;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-15-l{font-size: 15px;font-weight: 300;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-18-l{font-size: 18px;font-weight: 300;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-20-l{font-size: 20px;font-weight: 300;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-22-l{font-size: 22px;font-weight: 300;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-25-l{font-size: 25px;font-weight: 300;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-30-l{font-size: 30px;font-weight: 300;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-40-l{font-size: 40px;font-weight: 300;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-50-l{font-size: 50px;font-weight: 300;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-60-l{font-size: 60px;font-weight: 300;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-12-m{font-size: 12px;font-weight: 400;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-13-m{font-size: 13px;font-weight: 400;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-14-m{font-size: 14px;font-weight: 400;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-15-m{font-size: 15px;font-weight: 400;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-16-m{font-size: 16px;font-weight: 400;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-18-m{font-size: 18px;font-weight: 400;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-20-m{font-size: 20px;font-weight: 400;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-22-m{font-size: 22px;font-weight: 400;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-25-m{font-size: 25px;font-weight: 400;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-30-m{font-size: 30px;font-weight: 400;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-40-m{font-size: 40px;font-weight: 400;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-50-m{font-size: 50px;font-weight: 400;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-60-m{font-size: 60px;font-weight: 400;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-12-b{font-size: 12px;font-weight: 500;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-13-b{font-size: 13px;font-weight: 500;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-14-b{font-size: 14px;font-weight: 500;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-15-b{font-size: 15px;font-weight: 500;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-16-b{font-size: 16px;font-weight: 500;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-18-b{font-size: 18px;font-weight: 500;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-20-b{font-size: 20px;font-weight: 500;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-22-b{font-size: 22px;font-weight: 500;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-25-b{font-size: 25px;font-weight: 500;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-30-b{font-size: 30px;font-weight: 500;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-40-b{font-size: 40px;font-weight: 500;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-50-b{font-size: 50px;font-weight: 500;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-60-b{font-size: 60px;font-weight: 500;font-family: 'Roboto',Helvetica,Arial,serif;}
+
+.lh-12{line-height: 12px !important;}
+.lh-15{line-height: 15px !important; }
+.lh-18{line-height: 18px !important; }
+.lh-20{line-height: 20px !important; }
+.lh-21{line-height: 21px !important; }
+.lh-22{line-height: 22px !important; }
+.lh-25{line-height: 25px !important; }
+.lh-28{line-height: 28px !important; }
+.lh-30{line-height: 30px !important; }
+.lh-32{line-height: 32px !important; }
+.lh-35{line-height: 35px !important; }
+
+.bg-footer{background-color: rgba(227,232,235,1.0) !important;}
+.bg-theame{background-color: rgba(0,194,135,1.0) !important;}
+
+
+.ls-57{letter-spacing: .57px !important;}
+.ls-68{letter-spacing: .68px !important;}
+.ls-78{letter-spacing: .78px !important;}
+.ls-84{letter-spacing: .84px !important;}
+.ls-94{letter-spacing: .94px !important;}
+
+
+.h-40{height: 40px !important;}
+.h-32{height: 32px !important;}
+
+/* Graphh */
+text{display: none !important;}
+circle{display: none !important;}
+
+
+.t-bl{color: rgba(4,88,133,1.0) !important}
+.t-bld{color: rgba(3,61,92,1.0) !important}
+.t-b{color: rgba(42,54,131,1.0) !important}
+.t-g{color: rgba(74,73,74,1.0) !important;}
+.t-gl{color:rgba(109,109,109,1.0) !important}
+.t-bb{color: rgba(33,33,33,1.0) !important;}
+.t-theame{color: rgba(0,194,135,1.0) !important;}
+
+
+.t-11-l{font-size: 11px;font-weight: 300;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-11-m{font-size: 11px;font-weight: 400;font-family: 'Roboto',Helvetica,Arial,serif;}
+.t-11-b{font-size: 11px;font-weight: 500;font-family: 'Roboto',Helvetica,Arial,serif;}
+
+.hr-l{border-top: 2px solid whitesmoke !important;}
+.hr-2{border-top: 2px solid whitesmoke !important;}
+.hrd-1{border-top: 1px dashed rgb(233, 232, 232) !important;}
+
+
+.b-2-l{border: 2px solid whitesmoke !important;}
+
+.placeholder-mentor{
+    background: url('../assets/search.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position:  93%;
+}
+.placeholder-mentor::placeholder{
+    font-size: 12px;
+}
+
+
+/* Circuler Progress Bar */
+
+
+
+
+
+
+
+
+
+h1{
+    font-size: 60px;
+    color: rgba(33,33,33,1.0);
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',Helvetica,Arial,serif !important;
+
+}
+
+h2{
+    font-size: 50px;
+    color: rgba(33,33,33,1.0);
+    font-family: 'Roboto',Helvetica,Arial,serif !important;
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    font-size: 40px;
+    color: rgba(33,33,33,1.0);
+    font-family: 'Roboto',Helvetica,Arial,serif !important;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+h4{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22.0px;
+    color: rgba(33,33,33,1.0);
+    text-align: left;
+    line-height: 38.0px;
+}
+h5{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Roboto',Helvetica,Arial,serif !important;
+    margin: 0;
+    padding: 0;
+    
+}
+h6{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 33px;
+    font-family: 'Roboto',Helvetica,Arial,serif !important;
+    margin: 0;
+    padding: 0;  
+    color: rgba(41,48,67,1.0);
+
+
+}
+
+.peckedtextcolor{
+    color: rgba(41,48,67,1.0);
+    text-align: center;
+    line-height: 24.0px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.bold-p5{
+    font-weight: 500 !important;
+    font-style: normal;
+    font-size: 18.0px !important;
+    color: rgba(40,47,66,1.0) !important;  
+}
+
+
+p{
+    font-weight: 400;
+    font-size: 13.0px;
+    color: rgba(33,33,33,1.0);
+    line-height: 23.0px;
+    font-family: 'Roboto',Helvetica,Arial,serif !important;
+
+}
+.row{
+    width: 100%;
+}
+
+
+ /* BANNER SECTION */
+
+.bannerContainer{
+    background-image: url('../assets/banner.png');
+    background-repeat: no-repeat;
+}
+
+.bannerbtn{
+    width: 300px;
+    height: 60px;
+    background-color: rgba(0,194,135,1.0);
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 500;
+    font-size: 17.0px;
+    color: white;
+    border-radius: 30px;
+}
+
+.bannerBottom{
+    background: linear-gradient(180deg,white 0% , rgba(207, 204, 204, 0.12) 100% );
+}
+
+.count{
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 43.0px;
+    color: rgba(33,33,33,1.0);
+    text-align: left;
+    line-height: 50.0px;
+}
+
+.member{
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20.0px;
+    color: rgba(86,86,86,1.0);
+    text-align: left;
+    line-height: 24.0px;
+}
+/*------------- Process Section------------- */
+
+.processContainer{
+    background: linear-gradient(180deg , white 0% , rgba(243,246,249,1.0) 100%);
+}
+
+
+.greenLine{
+    width: 148px;
+    height: 4.25px;
+    background-color: rgba(0,194,135,1.0) ;
+    border-radius: 2.5px;
+    margin-left: 3.25em;
+}
+
+
+.exploreprocess{
+    width: 320px;
+    height: 64px;
+    position: relative;
+}
+
+.exploreprocess p{
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 500;
+    font-size: 20.0px;
+    color: rgba(35,60,146,1.0);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.arrow{
+    position: absolute;
+    top: 27px;
+    right: 25px;
+    width: 25px;
+}
+
+
+/*------------------- technology section ----------------*/
+
+
+.techeco{
+    background-color: white;
+    background: url('../assets/Ecosystem\ background.png');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+}
+
+.ecoImg{
+    width: 100%;
+    margin-top: 12%;
+}
+
+
+/*----------------- TECHNICAL LIST SECTION-------------------- */
+
+.techBox{
+    padding: 3em;
+    margin-top: 5%;
+}
+.technologyName{
+    background-color: rgb(45, 57, 92);
+    color: white;
+    padding: 15px  0;
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 400;
+    font-size: 25.0px;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+}
+.techContent{
+    background-color: rgba(243,246,249,1.0);
+    border-radius: 16px;
+}
+.techActive{
+    background-color: rgba(0,194,135,1.0);
+    color: white !important;
+    border-radius: 0.25rem;
+}
+.techNav hr{
+    border-top: 1.15px solid rgb(200, 203, 206);
+    width: 90%;
+    margin:0% auto !important;
+    padding: 0% !important;
+}
+
+.tech-p{
+    margin: 0%;
+}
+
+.explore{
+    background-color: white;
+}
+
+.explore p{
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13.0px;
+    color: rgba(35,47,122,1.0);
+    line-height: 15.0px;
+    padding: 1em;
+}
+
+
+
+
+.greyLine{
+    width: 150px;
+    height: 5px;
+    background-color: rgb(215, 221, 219) ;
+    border-radius: 2.5px;
+}
+
+.linkIcon{
+    font-size: 30px !important;
+    font-weight: 100 !important;
+    margin-top: 3px;
+}
+
+.card{
+    position: relative;
+    margin-bottom: 5%;
+    border: unset;
+}
+.imageText{
+    position: absolute;
+    top: 75px;
+    left: 20px;
+    color: white;
+}
+.card img{
+    height: 180px;
+}
+
+
+.review{
+    background-color: rgba(243,246,249,1.0);
+}
+
+.boldspan{
+    font-weight: 700;
+}
+
+.whybtn{
+    width: 300px;
+    height: 60px;
+    background-color: rgba(0,194,135,1.0);
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 500;
+    font-size: 17.0px;
+    color: white;
+    border-radius: 30px;
+    margin: 2% auto;
+    display: block;
+}
+
+footer{
+    background-color: rgba(227,232,235,1.0);
+}
+.footerheading{
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 500;
+    font-size: 16.0px;
+    color: rgba(33,44,112,1.0);
+    text-align: left;
+}
+li{
+    list-style: none;
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14.0px;
+    color: rgba(33,33,33,1.0);
+    text-align: left;
+    line-height: 29.0px;
+}
+.form-control{
+    margin-top: 5%;
+    height: 30px;
+    font-size: 15px;
+}
+.msg{
+    height: 80px;
+}
+
+.registerbtn{
+    width: 200px;
+    height: 45px;
+    background-color: rgba(0,194,135,1.0);
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 500;
+    font-size: 17.0px;
+    color: white;
+    border-radius: 30px;
+    margin: 5% 0;
+
+}
+.contactbtn{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0,194,135,1.0);
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 500;
+    font-size: 17.0px;
+    margin-left: 7%;
+    color: white;
+    border-radius: 30px;
+    margin: 5% auto;
+    display: block;
+}
+.container-fluid{
+    width: 100% !important;
+    margin: 0% !important;
+}
+.Copyrighttext{
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12.0px;
+    color: rgba(35,35,53,1.0);
+}
+  hr{
+      border-top:1px solid rgb(209, 206, 206) ;
+  }
+
+
+  
+  
+  
+  /* LOGIN FORM */
+
+  .login-header{
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28.0px;
+    color: rgba(33,33,33,1.0);
+    line-height: 33.0px;
+}
+.register-subtitle {
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18.0px;
+    color: rgba(74,73,74,1.0);
+    text-align: left;
+    line-height: 21.0px;
+}
+.register-subtitle span{
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18.0px;
+    color: rgba(0,44,62,1.0);
+    text-align: left;
+    line-height: 21.0px;
+}
+.login-area{
+    background-image: url('../assets/login-bg.png');
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: right bottom ;
+    /* width: 10%; */
+    /* height: 90vh; */
+}
+.bgImage-1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.login-image{
+    position: absolute;
+    width: 25%;
+    right: 0%;
+    bottom: 0%;
+}
+.login-input{
+    height: 50px;
+    background-color: whitesmoke;
+    border: unset;
+    width: 100%;
+    font-size: 14px;
+}
+.seprator{
+    border-left: 0.5px solid rgb(194, 192, 192);
+}
+.login-button{
+    background-color: rgba(0,194,135,1.0);
+    height: 55px;
+    width: 96%;
+    border-radius: 50px;
+}
+
+.f-register{
+    border-radius: 40px;
+    color:white;
+    background-color: rgba(55,86,155,1.0);
+    height: 45px;
+}
+.g-register{
+    border-radius: 40px;
+    color:white;
+    background-color: rgba(223,76,46,1.0);
+    height: 45px;
+}
+.login-tab{
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16.0px;
+    color: rgba(42,54,131,1.0);
+    letter-spacing: .84px;
+    line-height: 19.0px;
+    border: 1px solid rgba(42,54,131,1.0);
+    margin: 3% 1.5% ;
+    padding: 10px 20px;
+}

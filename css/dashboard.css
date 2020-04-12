@@ -1,0 +1,57 @@
+.notification{
+    width: 21px;
+    height:21px;
+    background-color: rgba(0,194,135,1.0);
+}
+.notification-msg{
+    width: 23px;
+    height:23px;
+    background-color: rgba(0,194,135,1.0);
+}
+.nav-p-image{
+    width: 40px;
+    height: 40px;
+}
+.chat-icon{
+    background: url('../assets/chat-icon.png');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center left;
+}
+
+.bar_container{
+    background: #016292;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #016292, #01968C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #016292, #01968C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.progress-container{
+    position: relative;
+    margin-top: 12px;
+}
+
+.progress-bg{
+    background-color: rgba(215,215,215,1.0);
+    height: 2px;
+    position: absolute;
+    width: 100%;
+    top: 1px;
+    left: 0%;
+}
+.progress-indicator{
+    background-color: rgba(0,194,135,1.0);
+    height: 4px;
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    z-index: 10;
+}
+.mentor-hr{
+    width: 58px;
+    border-top: 2px solid rgba(215,215,215,1.0);
+}
+
+.engagegraph-border{
+    border-left: 0.5px solid #6cffec;
+    border-bottom: 0.5px solid #6cffec;
+}

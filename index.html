@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- styelink -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/index.css">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!-- Javascript -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <div class=" container-fluid m-0 p-0 sticky-top bg-white shadow-sm">
+    <div class="row navcontainer justify-content-around m-0 p-0">
+      <div class="col-lg-4 col-md-3 col-sm-3 px-0">
+        <a class="nav-link" href="#">
+          <img src="./assets/logo.svg" alt="" class="img-fluid" />
+        </a>
+      </div>
+      <div class="col-lg-6 col-md-8 col-sm-9 px-0">
+        <ul class="d-flex">
+          <li class=" ml-auto px-2">
+            <a class="nav-link nav-active" href="#">Home</a>
+          </li>
+          <li class="px-2">
+            <a class="nav-link" href="#">Blogs</a>
+          </li>
+          <li class="px-2 ">
+            <a class="nav-link sn" data-toggle="modal" href=".bd-example-modal-lg">Log In | Sign In</a>
+          </li>
+          <li class="">
+            <button type="button" class="nav-link btn Navbtn text-white">Join Now</button>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- LoginFrom Model -->
+  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content login-area">
+        <h5 class="text-center pt-4 login-header">Welcome Back</h5>
+        <div class="row mt-5 mb-4 pb-5 ">
+          <div class="col-lg-6 pl-5 pr-5 ">
+            <div class="form-group pl-3">
+              <label for="userdrid" class="register-subtitle">Login</label>
+              <input id="userdrid" class="login-input mt-4 pl-2" type="text" name="" placeholder="Login ID">
+              <input id="userdrid" class="login-input mt-4 pl-2" type="password" name="" placeholder="Password">
+            </div>
+            <p class="text-right">Forget Password ?</p>
+            <button class=" border-0 text-white mt-4 ml-3 login-button"> login In</button>
+            <p class="register-subtitle mt-4 text-center">Don't have an account? <span>Register</span> </p>
+          </div>
+
+          <div class="col-lg-6 seprator px-4">
+            <p class="register-subtitle pl-3 ">Or Login With</p>
+            <div class="container-fluid mt-2">
+              <div class="row mt-4">
+                <div class="col-lg-3 col-3"><img class="img-fluid" src="./assets/g-button.PNG" alt=""> </div>
+                <button class="g-register border-0 col-lg-8 col-md-9 col-sm-9 col-9">Register with Google</button>
+              </div>
+              <div class="row mt-3">
+                <div class="col-lg-3 col-3"><img class="img-fluid" src="./assets/f-button.PNG" alt=""></div>
+                <button class="f-register border-0 col-lg-8 col-md-9 col-sm-9 col-9">Register with Facebook</button>
+              </div>
+              <div class="row mt-4 pl-3">
+                <p class="login-tab">Mentor</p>
+                <p class="login-tab">Trainee</p>
+                <p class="login-tab">Organization</p>
+              </div>
+            </div>
+          </div>
+          <img src="./assets/login-image.png" alt="" class="login-image">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!----------- BANNER SECTION ------------>
+
+  <div class="bannerContainer container-fluid m-0 p-0">
+    <div class="row m-0 p-0 justify-content-around">
+      <div class="col-lg-6 col-md-6 col-sm-11 col-12 my-5">
+        <h1 class="boldspan mt-5">Be Ready For Industry</h1>
+        <p class="my-4 t-18-m text-left">Through its unique Project Based Learning Program, Talent Tuner aims to create an
+          ecosystem of industry ready youth, who can contribute to the needs of the organization from their very first
+          day of employment.</p>
+        <button type="button" class="btn bannerbtn my-4">Join Now</button>
+      </div>
+      <div class="col-lg-4 col-md-5 col-sm-11 col-11 my-5">
+        <img src="./assets/Header image.svg" alt="" class="img-fluid col-sm-12 mx-auto">
+      </div>
+    </div>
+
+    <div class="container-fluid bannerBottom mt-5 pt-3 pb-5">
+      <div class=" row">
+        <div class="col-lg-4 col-md-4 col-12 container countstatus">
+          <div class="row">
+            <div class=" col-lg-6 col-md-6 col-6">
+              <img src="./assets/Student@2x.png" alt="" class="img-fluid w-25 mt-4 float-right">
+            </div>
+            <div class="col-lg-6 col-md-6 col-6">
+              <h3 class="float-left count">10,000+</h3>
+              <p class="float-left ml-2 member">Mentor</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-12 container countstatus">
+          <div class="row">
+            <div class=" col-lg-6 col-md-6 col-6">
+              <img src="./assets/Mentor@2x.png" alt="" class="img-fluid w-25 mt-4 float-right">
+            </div>
+            <div class="col-lg-6 col-md-6 col-6">
+              <h3 class="float-left count">10,0+</h3>
+              <p class="float-left ml-2 member">Mentor</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-12 container countstatus">
+          <div class="row">
+            <div class=" col-lg-6 col-md-6 col-6">
+              <img src="./assets/Project@2x.png" alt="" class="img-fluid w-25 mt-4 float-right">
+            </div>
+            <div class="col-lg-6 col-md-6 col-6">
+              <h3 class="float-left count">20+</h3>
+              <p class="float-left ml-2 member">Project Live</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="processContainer container-fluid mt-5 pt-5 pb-5 pl-5">
+      <div class="row mt-5">
+        <div class="col-lg-7 col-md-6 col-12">
+          <div class="ml-5">
+            <h2>PBL Process</h2>
+          </div>
+          <div class="greenLine mt-3 mb-3 "></div>
+          <h4 class="ml-5 pr-5 mt-2">PBL program represents an instructional methodology where Trainees are required to
+            inquire about the problem, research the issues, diagnose the situation, and find a feasible solution
+            collaboratively.</h4>
+          <div class="exploreprocess ml-5 mt-5">
+            <img src="./assets/processbtn.png" alt="">
+            <p>Explore Our PBL Process </p>
+            <img src="./assets/arrow.png" alt="" class="arrow">
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-6 col-12 mt-5 ">
+          <img src="./assets/PBL Image.svg" alt="" class="img-fluid images-p">
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="container-fluid techeco pt-5 pb-5 pl-5">
+      <div class="row mt-5">
+        <div class="col-lg-6 col-md-6 col-12 ">
+          <h2 class="ml-5">Our Ecosystem & Technology</h2>
+          <div class="greenLine mt-3 mb-3"></div>
+          <h6 class="pl-5 mt-2">PBL program represents an instructional methodology where Trainees are required to
+            inquire about the problem, research the issues, diagnose the situation, and find a feasible solution
+            collaboratively.</h6>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12 ">
+          <img src="./assets/Ecosystem Image.svg" alt="" class="img-fluid ml-3 p-1 images-p">
+        </div>
+
+
+        <!-- /*----------------- TECHNICAL LIST SECTION-------------------- */ -->
+
+        <div class="container-fluid mt-5 ">
+          <div class="row techBox ">
+
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-3 tech-p">
+              <div class="technologyName">
+                <h5>Meachine Learning</h5>
+              </div>
+              <div class="techContent shadow rounded pt-2">
+                <p>Python/R Best Practices <br>
+                  ML Project Life Cycle</p>
+                <hr>
+                <p>Exploratory Data Analysis <br>
+                  Meachine Learning <br>
+                  Deep Learning <br>
+                  Python, Tensor Flow <br>
+                  ( or R/Rstudio)</p>
+                <hr>
+                <p>Foundation Statics Concept</p>
+                <div class="explore rounded">
+                  <p>Explore <span class="boldspan ml-1">&#8811;</span> </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-3 tech-p">
+              <div class="technologyName">
+                <h5>Meachine Learning</h5>
+              </div>
+              <div class="techContent shadow rounded pt-2">
+                <p>Python/R Best Practices <br>
+                  ML Project Life Cycle</p>
+                <hr>
+                <p>Exploratory Data Analysis <br>
+                  Meachine Learning <br>
+                  Deep Learning <br>
+                  Python, Tensor Flow <br>
+                  ( or R/Rstudio)</p>
+                <hr>
+                <p>Foundation Statics Concept</p>
+                <div class="explore rounded">
+                  <p>Explore <span class="boldspan ml-1">&#8811;</span> </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12 tech-p">
+              <div class="technologyName">
+                <h5>Meachine Learning</h5>
+              </div>
+              <div class="techContent shadow rounded pt-2">
+                <p>Python/R Best Practices <br>
+                  ML Project Life Cycle</p>
+                <hr>
+                <p>Exploratory Data Analysis <br>
+                  Meachine Learning <br>
+                  Deep Learning <br>
+                  Python, Tensor Flow <br>
+                  ( or R/Rstudio)</p>
+                <hr>
+                <p>Foundation Statics Concept</p>
+                <div class="explore rounded">
+                  <p>Explore <span class="boldspan ml-1">&#8811;</span> </p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12 tech-p">
+              <div class="technologyName">
+                <h5>Meachine Learning</h5>
+              </div>
+              <div class="techContent shadow rounded pt-2">
+                <p>Python/R Best Practices <br>
+                  ML Project Life Cycle</p>
+                <hr>
+                <p>Exploratory Data Analysis <br>
+                  Meachine Learning <br>
+                  Deep Learning <br>
+                  Python, Tensor Flow <br>
+                  ( or R/Rstudio)</p>
+                <hr>
+                <p>Foundation Statics Concept</p>
+                <div class="explore rounded">
+                  <p>Explore <span class="boldspan ml-1">&#8811;</span> </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12 tech-p">
+              <div class="technologyName">
+                <h5>Meachine Learning</h5>
+              </div>
+              <div class="techContent shadow rounded pt-2">
+                <p>Python/R Best Practices <br>
+                  ML Project Life Cycle</p>
+                <hr>
+                <p>Exploratory Data Analysis <br>
+                  Meachine Learning <br>
+                  Deep Learning <br>
+                  Python, Tensor Flow <br>
+                  ( or R/Rstudio)</p>
+                <hr>
+                <p>Foundation Statics Concept</p>
+                <div class="explore rounded">
+                  <p>Explore <span class="boldspan ml-1">&#8811;</span> </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--------------- Couses section ------------>
+
+    <div class="container-fluid mt-5 p-5">
+      <h2 class="ml-5">Our Courses</h2>
+      <div class="greyLine mt-3 mb-4 ml-5"></div>
+
+      <div class="row pl-3">
+        <div class="shadow techNav bg-white rounded col-lg-3 col-md-4 col-11 mt-3 ml-5 mb-5 px-0">
+          <h4 class="bold-p5 p-4 techActive">NODE JS <i class="material-icons float-right linkIcon">chevron_right</i>
+          </h4>
+          <h4 class="bold-p5 p-4">PYTHON<i class="material-icons float-right linkIcon">chevron_right</i></h4>
+          <hr>
+          <h4 class="bold-p5 p-4">MECHINE LEARNING<i class="material-icons float-right linkIcon">chevron_right</i></h4>
+          <hr>
+          <h4 class="bold-p5 p-4">COMPUTER SCIENCE<i class="material-icons float-right linkIcon">chevron_right</i></h4>
+          <hr>
+          <h4 class="bold-p5 p-4">HTML CSS<i class="material-icons float-right linkIcon">chevron_right</i></h4>
+        </div>
+
+        <div class="container-fluid col-lg-8 col-md-7 col-11 m-0 p-0">
+          <div class="row ml-5">
+
+            <div class="col-lg-6 col-md-11 col-10 pl-3 pr-3 pt-3">
+              <div class="card rounded">
+                <img src="./assets/tech.png" class="img-fluid rounded" alt="...">
+                <div class="imageText">
+                  <h5>Asp.Net MVC Web-Api</h5>
+                  <p class="text-white text-left mt-3"> <span> &#x2B50; </span> 4.4 ( 1234 ) <br>
+                    Created By: Neeraj Chaurasia</p>
+                </div>
+                <div class="card-body text-center shadow rounded">
+                  <p class="card-text text-left">Some quick example text to build on the card title and make up the bulk
+                    of the card's content.</p>
+                  <a href="#" class="btn btn-explore">Explore Program</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-11 col-10 pl-3 pr-3 pt-3">
+              <div class="card">
+                <img src="./assets/tech.png" class="img-fluid rounded" alt="...">
+                <div class="imageText">
+                  <h5>Asp.Net MVC Web-Api</h5>
+                  <p class="text-white text-left mt-3"> <span> &#x2B50; </span> 4.4 ( 1234 ) <br>
+                    Created By: Neeraj Chaurasia</p>
+                </div>
+                <div class="card-body text-center shadow rounded">
+                  <p class="card-text text-left">Some quick example text to build on the card title and make up the bulk
+                    of the card's content.</p>
+                  <a href="#" class="btn btn-explore">Explore Program</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="review container-fluid m-0 p-5">
+      <h3 class="ml-5">Why TalentTuner?</h3>
+      <div class="greyLine ml-5 mt-3 mb-3"></div>
+
+      <div class="mt-3 p-2 ml-5">
+        <h4><span class="boldspan">Flexibility –</span> Organization can choose to Hire via Talent Tuner or have their
+          Employees trained by Talent Tuner through PBL Program</h4>
+        <br>
+        <h4><span class="boldspan">Reduced cost</span> for organization</h4>
+        <br>
+        <h4><span class="boldspan">Industry Experts</span> with niche skillset & Strong Training background</h4>
+        <br>
+        <h4><span class="boldspan">E- Learning Platform -</span> Analytics and AI enabled - Performance matrix, Deliver
+          Online assessments, Daily Engagement through Quizzes, Video, Audio</h4>
+        <br>
+        <h4><span class="boldspan">> 500 candidates</span> trained in various Technologies and Softskills. Strong
+          Presence in NCR , offices at Delhi, Greater Noida and Gurugram.</h4>
+      </div>
+
+
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-5 col-12">
+            <h3 class="mt-5 ml-5 pt-3">Our System</h3>
+            <div class="greyLine ml-5 mt-3 mb-3"></div>
+            <h4><span class="boldspan mt-5 ml-5 p-0">DashBoard</span></h4>
+            <h6 class="mt-3 ml-5 p-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum has been the industry's standard dummy text ever since the 1500s</h6>
+          </div>
+          <div class="col-lg-6 col-md-7 col-12 mt-5">
+            <img src="./assets/Desktop Image.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-12">
+        <button type="button" class="btn whybtn">Join Now</button>
+      </div>
+
+    </div>
+
+    <div class="container-fluid bg-white pl-5">
+      <h3 class="mt-5 ml-5">Talent Tuner is backed by</h3>
+      <div class="greyLine ml-5 mt-3 mb-3"></div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 pl-5 col-12 backd-p">
+            <img src="./assets/amber logo.png" alt="" class="img-fluid p-5">
+            <h6 class="text-center peckedtextcolor">Amber system – A leading provider for software and architectural
+              services</h6>
+          </div>
+          <div class="col-lg-4 col-md-6 pl-5 col-12 backd-p">
+            <img src="./assets/Katalyze logo.png" alt="" class="img-fluid p-5">
+            <h6 class="text-center peckedtextcolor">A Studio for communication , personal , technical, academic skills
+              development</h6>
+          </div>
+          <div class="col-lg-4 col-md-6 pl-5 col-12 backd-p">
+            <img src="./assets/greythorn Logo.png" alt="" class="img-fluid p-5">
+            <h6 class="text-center peckedtextcolor">A Studio for communication , personal , technical, academic skills
+              development</h6>
+          </div>
+        </div>
+
+      </div>
+
+      <h3 class="mt-5 ml-5 pt-3">Student’s Reviews</h3>
+      <div class="greyLine ml-5 mt-3 mb-4"></div>
+    </div>
+
+
+    <div class="p-5 container-fluid review">
+      <div class="row ">
+        <div class="col-lg-2 col-md-3">
+          <img src="./assets/pic.jpg" alt="" class="img-fluid rounded-circle ml-5 w-50 float-right">
+        </div>
+        <div class="col-lg-2 text-left col-md-9 mt-2 ">
+          <h6 class="boldspan text-left">Megha Verma</h6>
+          <p class="text-left peckedtextcolor">MSC (h) computer science 3rd year</p>
+        </div>
+      </div>
+      <div class="container ml-5 pl-5 mb-5">
+        <h6 class="peckedtextcolor text-left pl-5 ml-5">Assesment leads accuracy and accuracy leads perfection. So just
+          for it guys...Assesment leads accuracy and accuracy leads perfection. Assesment leads accuracy and accuracy
+          leads perfection. So just for it guys...Assesment leads accuracy and accuracy leads perfection.</h6>
+      </div>
+    </div>
+
+    <!-- footer part -->
+    <footer>
+      <div class="container">
+        <div class="row pt-4">
+          <div class="col-lg-3 col-md-5 col-12 pl-5">
+            <h6 class="footerheading">Company</h6>
+            <ul>
+              <li>About</li>
+              <li>More Search</li>
+              <li>Blog</li>
+              <li>Event</li>
+              <li>Testmonial</li>
+            </ul>
+            <button type="button" class="btn registerbtn">Register Now</button>
+          </div>
+          <div class="col-lg-3 col-md-5 col-12 px-auto">
+            <h6 class="footerheading">Quick Links</h6>
+            <ul>
+              <li>News</li>
+              <li>Servics</li>
+              <li>Term & Condition</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-5 col-12 px-auto">
+            <h6 class="footerheading">Contact Us</h6>
+            <div class="container-fluid">
+              <div class="row mt-2">
+                <div class="col-2 p-1">
+                  <img src="./assets/phone.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-10 p-0">
+                  <p class="text-left pl-3 mt-1">+91 1234567890</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-2 p-1">
+                  <img src="./assets/mail.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-10 p-0">
+                  <p class="text-left pl-3 mt-1">ambersystem@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            <h6 class="footerheading mt-3">Social Media</h6>
+            <div class="container-fluid">
+              <div class="row mt-2">
+                <div class="col-2 p-1">
+                  <img src="./assets/fb.PNG" alt="" class="img-fluid">
+                </div>
+                <div class="col-10 p-0">
+                  <p class="text-left pl-3 mt-2">Facebook</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-2 p-1">
+                  <img src="./assets/tw.PNG" alt="" class="img-fluid">
+                </div>
+                <div class="col-10 p-0">
+                  <p class="text-left pl-3 mt-2">Twitter</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-2 p-1">
+                  <img src="./assets/li.PNG" alt="" class="img-fluid">
+                </div>
+                <div class="col-10 p-0">
+                  <p class="text-left pl-3 mt-2">Linkdin</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-5 col-12 px-auto">
+            <h6 class="footerheading">Leave a message</h6>
+            <br>
+            <input class="form-control" type="text" placeholder="Name">
+            <input class="form-control" type="email" placeholder="Email">
+            <input class="form-control msg" type="text" placeholder="Message">
+            <button type="button" class="btn contactbtn">Send</button>
+          </div>
+        </div>
+        <hr class="col-lg-10 mx-auto">
+        <p class="text-center pb-3 m-0 Copyrighttext">Copyright © 2019 Amber System. All Rights Reserved. Terms of Use |
+          Privacy Policy | Disclaimer</p>
+      </div>
+    </footer>
+</body>
+</html>

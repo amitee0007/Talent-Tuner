@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="506px" height="284px" viewBox="0 0 506 284" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 28</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="251" cy="246.5" rx="106" ry="29.5"></ellipse>
+        <filter x="-3.3%" y="-8.5%" width="106.6%" height="123.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.898680371   0 0 0 0 0.898680371   0 0 0 0 0.937579719  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <ellipse id="path-3" cx="251" cy="29.5" rx="78" ry="29.5"></ellipse>
+        <filter x="-4.5%" y="-8.5%" width="109.0%" height="123.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.898680371   0 0 0 0 0.898680371   0 0 0 0 0.937579719  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <ellipse id="path-5" cx="73" cy="141.5" rx="73" ry="29.5"></ellipse>
+        <filter x="-4.8%" y="-8.5%" width="109.6%" height="123.7%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.898680371   0 0 0 0 0.898680371   0 0 0 0 0.937579719  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <ellipse id="path-7" cx="425" cy="141.5" rx="73" ry="29.5"></ellipse>
+        <filter x="-4.8%" y="-8.5%" width="109.6%" height="123.7%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.898680371   0 0 0 0 0.898680371   0 0 0 0 0.937579719  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page-Copy-3" transform="translate(-834.000000, -915.000000)">
+            <g id="Group-28" transform="translate(838.000000, 917.000000)">
+                <path d="M248.5,261 C338.246272,261 411,208.841173 411,144.5 C411,80.1588266 338.246272,28 248.5,28 C158.753728,28 86,80.1588266 86,144.5 C86,208.841173 158.753728,261 248.5,261 Z" id="Oval" stroke="#979797" stroke-width="4" fill="#FFFFFF" fill-rule="nonzero" opacity="0.218325" stroke-dasharray="8"></path>
+                <text id="PBL-Model" opacity="0.191359747" font-family="Roboto-Black, Roboto" font-size="34" font-weight="700" fill="#242335">
+                    <tspan x="165" y="159">PBL Model</tspan>
+                </text>
+                <g id="Oval" fill-rule="nonzero">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                </g>
+                <g id="Oval-Copy-4" fill-rule="nonzero">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#FFFFFF" xlink:href="#path-3"></use>
+                </g>
+                <g id="Oval-Copy-5" fill-rule="nonzero">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    <use fill="#FFFFFF" xlink:href="#path-5"></use>
+                </g>
+                <g id="Oval-Copy-6" fill-rule="nonzero">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                    <use fill="#FFFFFF" xlink:href="#path-7"></use>
+                </g>
+                <text id="Process-Copy-3" font-family="Roboto-Black, Roboto" font-size="24" font-weight="700" fill="#4A90E2">
+                    <tspan x="209" y="36">Process</tspan>
+                </text>
+                <text id="People-Copy-3" font-family="Roboto-Black, Roboto" font-size="24" font-weight="700" fill="#019688">
+                    <tspan x="388" y="149">People</tspan>
+                </text>
+                <text id="Project/Product-Copy" font-family="Roboto-Black, Roboto" font-size="24" font-weight="700" fill="#EA8823">
+                    <tspan x="170" y="255">Project/Product</tspan>
+                </text>
+                <text id="Problem-Copy-3" font-family="Roboto-Black, Roboto" font-size="24" font-weight="700" fill="#045885">
+                    <tspan x="30" y="149">Problem</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
