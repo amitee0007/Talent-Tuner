@@ -1,0 +1,87 @@
+/* LOGIN FORM */
+.login-header{
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28.0px;
+    color: rgba(33,33,33,1.0);
+    line-height: 33.0px;
+}
+.register-subtitle {
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18.0px;
+    color: rgba(74,73,74,1.0);
+    text-align: left;
+    line-height: 21.0px;
+}
+.register-subtitle span{
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18.0px;
+    color: rgba(0,44,62,1.0);
+    text-align: left;
+    line-height: 21.0px;
+}
+.login-area{
+    background-image: url('../assets/login-bg.png');
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: right bottom ;
+    /* width: 10%; */
+    /* height: 90vh; */
+}
+.bgImage-1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.login-image{
+    position: absolute;
+    width: 25%;
+    right: 0%;
+    bottom: 0%;
+}
+.login-input{
+    height: 50px;
+    background-color: whitesmoke;
+    border: unset;
+    width: 100%;
+    font-size: 14px;
+}
+.seprator{
+    border-left: 0.5px solid rgb(194, 192, 192);
+}
+.login-button{
+    background-color: rgba(0,194,135,1.0);
+    height: 55px;
+    width: 96%;
+    border-radius: 50px;
+}
+
+.f-register{
+    border-radius: 40px;
+    color:white;
+    background-color: rgba(55,86,155,1.0);
+    height: 45px;
+}
+.g-register{
+    border-radius: 40px;
+    color:white;
+    background-color: rgba(223,76,46,1.0);
+    height: 45px;
+}
+.login-tab{
+    font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16.0px;
+    color: rgba(42,54,131,1.0);
+    letter-spacing: .84px;
+    line-height: 19.0px;
+    border: 1px solid rgba(42,54,131,1.0);
+    margin: 3% 1.5% ;
+    padding: 10px 20px;
+}

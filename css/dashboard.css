@@ -6,17 +6,22 @@
 .notification-msg{
     width: 23px;
     height:23px;
+    padding-top: 1px;
     background-color: rgba(0,194,135,1.0);
 }
 .nav-p-image{
     width: 40px;
     height: 40px;
+    margin-top: 12px;
 }
 .chat-icon{
     background: url('../assets/chat-icon.png');
     background-repeat: no-repeat;
-    background-size: 40%;
-    background-position: center left;
+    background-size: 60%;
+    width: 40px;
+    height: 40px;
+    background-position:  left center;
+    margin-top: 12px;
 }
 
 .bar_container{
@@ -54,4 +59,32 @@
 .engagegraph-border{
     border-left: 0.5px solid #6cffec;
     border-bottom: 0.5px solid #6cffec;
+}
+
+
+
+
+
+
+/* Graphh */
+text{display: none !important;}
+circle{display: none !important;}
+
+.graph-indicators{
+    width: 8px;
+    height: 8px;
+}
+.graph-container{
+    position: relative;
+}
+.graph-legends{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+
+.active-bullet{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
 }
