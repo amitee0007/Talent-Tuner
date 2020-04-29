@@ -114,3 +114,35 @@
     // Convert the Classic options to Material options.
     chart.draw(data, google.charts.Bar.convertOptions(options));
   }
+
+
+   function drawProgress(id,progress){
+      google.charts.setOnLoadCallback(drawprogress);
+      function drawprogress() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Trainee status'],
+          ['progress', progress],
+          ['remaining', 100-progress],
+        ]);
+    
+        var options = {
+          // title: 'My Daily Activities',
+          legend: {poistion:'right',alignment:'center',textStyle:{color:'#E6FFF9',fontSize:12}},
+          pieHole: 0.65,
+          colors:['#00c287','#d4d4d4'],
+          backgroundColor:{fill:'transparent'},
+          pieStartAngle: 120,
+          pieSliceText:'none',  //dont show percentege
+          // pieSliceBorderColor:'#01968C',
+          chartArea:{left:0,top:0,width:'100%',height:'100%'},
+          fontName:'Roboto',
+        };
+    
+        var chart = new google.visualization.PieChart(document.getElementById(id));
+        chart.draw(data, options);
+      }
+    }
+
+
+
+  

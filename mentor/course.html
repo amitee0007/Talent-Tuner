@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- styelink -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/mentor.css">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- Javascript -->
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- BAR & Graph -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="../js/graph-charts.js"></script>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-lg-0 py-sm-4 py-1 px-0">
+        <div class="container-fluid px-sm-5 px-4">
+            <a class="nav" href="#"><img src="../assets/logo.svg" alt="" class="img-fluid" /></a>
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon t-theame"></span> -->
+                <div class="tog-bar"></div>
+                <div class="tog-bar"></div>
+                <div class="tog-bar"></div>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class=" nav-item nav-link t-g ls-78 t-15-m" href="#">Dashboard</a>
+                    <a class=" nav-item nav-link t-g ls-78 t-15-m " href="#">My Trainee</a>
+                    <a class=" nav-item nav-link t-g ls-78 t-15-m " href="#">Project</a>
+                    <a class=" nav-item nav-link t-g ls-78 t-15-m nav-active" href="#">Course</a>
+                    <a class=" nav-item nav-link t-g ls-78 t-15-m" href="#">Blog</a>
+                    <a href="#" class="ml-5">
+                        <div class="d-flex align-items-center">
+                            <img src="../assets/neeraj.png" class="nav-p-image" alt="">
+                            <p class="t-15-l t-bb my-0 ml-2 mt-2">Neeraj Chaurasia</p>
+                        </div>
+                    </a>
+                    <a href="#" class=" ml-5">
+                        <div class="chat-icon">
+                            <p class="bg-btn text-white float-right rounded-circle notification text-center pt-0">6</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="d-flex my-4 px-5">
+        <p class="t-25-m t-bb">Your Course</p>
+        <button class="btn ml-auto bg-theame text-white h-40 rounded-pill mx-2 t-14-m">+ Add New Project</button>
+    </div>
+
+
+    <div class="d-flex flex-wrap px-5">
+
+        <div class="col-lg-4 col-sm-6 col-12 py-sm-3 ">
+            <div class="card" style="overflow:hidden">
+              <img src="../assets/tech.png" class="rounded" alt="...">
+              <div class="imageText">
+                <h5>Asp.Net MVC Web-Api</h5>
+                <p class="text-white text-left mt-3"> <span> &#x2B50; </span> 4.4 ( 1234 ) <br>
+                  Created By: Neeraj Chaurasia</p>
+              </div>
+              <div class="card-body text-center shadow rounded">
+                <p class="card-text text-left">Some quick example text to build on the card title and make up the bulk
+                  of the card's content.</p>
+                <a href="#" class="btn btn-explore">Explore Program</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 col-12 py-sm-3 ">
+            <div class="card" style="overflow:hidden">
+              <img src="../assets/tech.png" class="rounded" alt="...">
+              <div class="imageText">
+                <h5>Asp.Net MVC Web-Api</h5>
+                <p class="text-white text-left mt-3"> <span> &#x2B50; </span> 4.4 ( 1234 ) <br>
+                  Created By: Neeraj Chaurasia</p>
+              </div>
+              <div class="card-body text-center shadow rounded">
+                <p class="card-text text-left">Some quick example text to build on the card title and make up the bulk
+                  of the card's content.</p>
+                <a href="#" class="btn btn-explore">Explore Program</a>
+              </div>
+            </div>
+          </div>
+
+    </div>
+
+
+    <!-- footer part -->
+    <footer class="pt-sm-5 pt-4 px-4">
+        <div class="d-flex flex-wrap justify-content-around">
+            <div class="col-lg-2 col-md-5 col-5 company">
+                <h6 class="footerheading">Company</h6>
+                <ul class="">
+                    <li>About</li>
+                    <li>More Search</li>
+                    <li>Blog</li>
+                    <li>Event</li>
+                    <li>Testmonial</li>
+                </ul>
+                <button type="button" class="btn registerbtn">Register Now</button>
+            </div>
+            <div class="col-lg-2 col-md-5 col-5 quick-links">
+                <h6 class="footerheading">Quick Links</h6>
+                <ul>
+                    <li>News</li>
+                    <li>Servics</li>
+                    <li>Term & Condition</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-5 col-12 pl-4 contact">
+                <h6 class="footerheading">Contact Us</h6>
+                <div class="container-fluid">
+                    <div class="row mt-2">
+                        <div class="col-sm-2 col-1 p-sm-2 p-0">
+                            <img src="../assets/phone.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-10 p-0">
+                            <p class="text-left pl-3 t-14-m mt-2">+91 1234567890</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 col-sm-1 col-1 p-sm-2 p-0">
+                            <img src="../assets/mail.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-10 p-0">
+                            <p class="text-left pl-3 mt-2 t-14-m">ambersystem@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <h6 class="footerheading mt-3">Social Media</h6>
+                <div class="container-fluid">
+                    <div class="row mt-2">
+                        <div class="col-sm-2 col-1 p-sm-2 p-1">
+                            <img src="../assets/fb.PNG" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-10 p-0">
+                            <p class="text-left pl-3 t-14-m mt-2">Facebook</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-2 col-1 p-sm-2 p-0">
+                            <img src="../assets/tw.PNG" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-10 p-0">
+                            <p class="text-left pl-3 t-14-m mt-2">Twitter</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-2 col-1 p-sm-2 p-0">
+                            <img src="../assets/li.PNG" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-10 p-0">
+                            <p class="text-left pl-3 t-14-m mt-2">Linkdin</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-5 col-12 form-contact">
+                <h6 class="footerheading">Leave a message</h6>
+                <input class="form-control footer-input mt-2" type="text" placeholder="Name">
+                <input class="form-control footer-input mt-2" type="email" placeholder="Email">
+                <input class="form-control msg footer-input mt-2" type="text" placeholder="Message">
+                <button type="button" class="btn contactbtn">Send</button>
+            </div>
+        </div>
+        <hr class="col-lg-8 mx-auto">
+        <p class="text-center pb-3 m-0 t-12-l">Copyright © 2019 Amber System. All Rights Reserved. Terms of Use |
+            Privacy Policy | Disclaimer</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+.pbl-container {
+    background: linear-gradient(0deg, white 0%, rgb(227, 243, 249) 100%);
+
+}
+
+.problem-container {
+    background-image: url('../assets/pbl/back.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.greenLine-pbl {
+    width: 148px;
+    height: 5px;
+    background-color: rgba(0, 194, 135, 1.0);
+    border-radius: 2.5px;
+    margin-top: 10px !important;
+}
+
+@media only screen and (max-width : 1200px) {
+
+    .problem-container{
+        background: none;
+    }
+}
+
+
+@media only screen and (max-width : 992px) {
+
+    .pblmain-text {
+        order: 2;
+        -webkit-order: 2;
+    }
+
+    .pblmain-img {
+        order: 1;
+        -webkit-order: 1;
+    }
+}
+
+@media only screen and (max-width : 576px) {
+
+
+    .t-50-b {
+        font-family: 'Roboto', Helvetica, Arial, serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 20.0px !important;
+        color: rgba(35, 35, 53, 1.0) !important;
+        text-align: left;
+        line-height: 24.0px !important;
+    }
+
+    .greenLine-pbl {
+        width: 94px;
+        height: 2px;
+        margin-top: 5px !important;
+
+    }
+
+    .t-20-l {
+        font-family: 'Roboto', Helvetica, Arial, serif;
+        font-style: normal;
+        font-size: 14.0px !important;
+        color: rgba(33, 33, 33, 1.0) !important;
+        text-align: left;
+        line-height: 20.0px !important;
+    }
+
+    .t-15-m{
+        font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14.0px !important;
+    color: rgba(51,51,51,1.0);
+    text-align: left;
+    line-height: 19.0px !important;
+    }
+    .t-25-b{
+        font-family: 'Roboto',Helvetica,Arial,serif;
+    font-weight: 500 !important;
+    font-style: normal;
+    font-size: 14.0px !important;
+    color: rgba(51,51,51,1.0) !important;
+    text-align: left;
+    line-height: 16.0px !important;
+    }
+    .t-18-m{
+        font-family: 'Roboto',Helvetica,Arial,serif;
+        font-weight: 300 !important;
+        font-style: normal;
+        font-size: 14.0px !important;
+        color: rgba(51,51,51,1.0);
+        text-align: left;
+        line-height: 21.0px !important;
+    }
+    .t-18-b{
+        font-family: 'Roboto',Helvetica,Arial,serif;
+        font-weight: 500 !important;
+        font-style: normal;
+        font-size: 14.0px !important;
+        color: rgba(51,51,51,1.0) !important;
+        text-align: left;
+        line-height: 16.0px !important;
+    }
+}

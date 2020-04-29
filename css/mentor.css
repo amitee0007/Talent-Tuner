@@ -32,7 +32,7 @@
 }
 .progress-container{
     position: relative;
-    margin-top: 12px;
+    margin-top: 0px;
 }
 
 .progress-bg{
@@ -87,4 +87,35 @@ circle{display: none !important;}
     width: 7px;
     height: 7px;
     border-radius: 50%;
+}
+.project_graph{
+    position: relative;
+}
+.project_progress{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    
+}
+
+.card{
+    position: relative;
+    margin-bottom: 5%;
+    border: unset;
+    box-shadow: 0.25px 0.25px 4px 4px rgb(244, 247, 250);
+}
+.imageText{
+    position: absolute;
+    top: 75px;
+    left: 20px;
+    color: white;
+}
+
+
+/* blog page */
+.blog_search::placeholder{
+    font-size: 15px !important;
+    font-weight: 100 !important;
+    font-family: 'Roboto',Helvetica,Arial,serif !important;
+    color: rgba(74,74,74,1.0);
 }

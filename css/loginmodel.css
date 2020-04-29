@@ -7,6 +7,11 @@
     color: rgba(33,33,33,1.0);
     line-height: 33.0px;
 }
+.login-close{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
 .register-subtitle {
     font-family: 'Roboto',Helvetica,Arial,serif;
     font-weight: 400;
