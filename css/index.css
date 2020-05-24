@@ -28,14 +28,14 @@
 }
 
 
-h1{
+/* h1{
     font-size: 60px;
     color: rgba(33,33,33,1.0);
     margin: 0;
     padding: 0;
     font-family: 'Roboto',Helvetica,Arial,serif !important;
 
-}
+} */
 
 .sec-title{
     font-size: 50px;
@@ -78,7 +78,7 @@ h1{
 }
 
 
-h3{
+/* h3{
     font-size: 40px;
     color: rgba(33,33,33,1.0);
     font-family: 'Roboto',Helvetica,Arial,serif !important;
@@ -105,7 +105,7 @@ h6{
     color: rgba(41,48,67,1.0);
 
 
-}
+} */
 
 .peckedtextcolor{
     color: rgba(41,48,67,1.0);
@@ -123,22 +123,22 @@ h6{
 }
 
 
-p{
+/* p{
     font-weight: 400;
     font-size: 13.0px;
     color: rgba(33,33,33,1.0);
     line-height: 23.0px;
     font-family: 'Roboto',Helvetica,Arial,serif !important;
 
-}
+} */
 
 .t-g{color: rgba(74,73,74,1.0) !important ;}
 
 
 
-.row{
+/* .row{
     width: 100%;
-}
+} */
 
 
  /* BANNER SECTION */

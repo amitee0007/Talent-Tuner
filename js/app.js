@@ -31,3 +31,16 @@ $(document).ready(()=>{
     })
 
   });
+
+  var carousal= document.querySelector('.page-carousal')
+  var footer  = document.querySelector('.page-f')
+  var fee = document.querySelector('.fee-container')
+  window.onscroll = function() {
+    if (window.innerHeight + window.scrollY > document.body.clientHeight - (carousal.clientHeight + footer.clientHeight)) {
+        fee.style.transform = 'translateX(350px)';
+        // $('.fee-container').fadeIn('slow');
+    }else{
+        fee.style.transform = 'translateX(0px)';
+        // $('.fee-container').fadeIn('slow');
+    }
+}
